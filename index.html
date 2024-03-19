@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper{
+            width: 900px;
+            height: 700px;
+            border: 1px solid red;
+        }
+        body{
+            background-color: bisque;
+        }
+        header{
+            height: 140px;
+            width: 100%;
+            position: relative;
+            border: 1px solid black;
+        }
+        nav{
+            height: 45px;
+            width: 100%;
+            border: 1px solid blue;
+        }
+        .content{
+            height: 400px;
+            width: 100%;
+            border: 1px solid pink;
+        }
+        footer{
+            height: auto;
+            width: 100%;
+            border: 1px solid red;
+        }
+        .as1{
+            width: 30%;
+            height: 100%;
+            background-color: aqua;
+            float: left;
+        }
+        .sec{
+            width: 40%;
+            height: 100%;
+            background-color: aquamarine;
+            float: left;
+        }
+        .as2{
+            width: 30%;
+            height: 100%;
+            background-color: blueviolet;
+            float: left;
+        }
+        h1{
+            position: absolute;
+            right: 40px;
+            top: 20px;
+            color: rgb(255, 255, 255);
+            text-shadow: 10px 10px 2px black;
+        }
+        #form1{
+            position: absolute;
+            right: 40px;
+            bottom: 20px;
+        }
+        #form1 input{
+            padding: 4px;
+        }
+        .menu li{
+            width: 100px;
+            height: 100%;
+            display: inline-table;
+            line-height: 45px;
+            text-indent: 30px;
+            list-style-type: none;
+        }
+        li a{
+            text-decoration: none;
+            color: red;
+            font-size: 18;
+        }
+        .menu li:hover{
+            background-color: white;
+        }
+        li:hover a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <form action="#" id="form1">
+                <input type="text" name="" id="nhap" placeholder="Nhap tu khoa tim kiem" pattern="[a-z0-9]@gmail.com" >
+                <input type="submit" value="Tim kiem">
+            </form>
+            <h1>Khoa Cong Nghe Thong Tin</h1>
+            <img src="/images/1319447.jpeg" alt="" width="100%" height="100%">
+            
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">index</a></li>
+                <li><a href="">index</a></li>
+                <li><a href="">index</a></li>
+                <li><a href="">index</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="as1"></div>
+            <div class="sec"></div>
+            <div class="as2"></div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
